@@ -20,6 +20,10 @@ To build a wheel run:
 cd output_dir
 python setup.py sdist bdist_wheel
 ```
+To use the client in your own project just copy the wheel out of the directory below:
+```
+openapi-client/dist/openapi_client-1.0.0-py3-none-any.whl
+```
 
 you can now use the .whl file in output_dir/dist to install our libary
 
