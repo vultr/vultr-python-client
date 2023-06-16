@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.bandwidth import Bandwidth
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.bandwidth import Bandwidth
+from vultr_python_client import configuration
 
 
 class TestBandwidth(unittest.TestCase):

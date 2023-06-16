@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.nodepool_instances import NodepoolInstances
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.nodepool_instances import NodepoolInstances
+from vultr_python_client import configuration
 
 
 class TestNodepoolInstances(unittest.TestCase):

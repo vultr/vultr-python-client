@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.domain import Domain
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.domain import Domain
+from vultr_python_client import configuration
 
 
 class TestDomain(unittest.TestCase):

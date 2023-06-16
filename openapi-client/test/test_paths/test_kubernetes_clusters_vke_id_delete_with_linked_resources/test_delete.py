@@ -11,9 +11,9 @@ from unittest.mock import patch
 
 import urllib3
 
-import openapi_client
-from openapi_client.paths.kubernetes_clusters_vke_id_delete_with_linked_resources import delete  # noqa: E501
-from openapi_client import configuration, schemas, api_client
+import vultr_python_client
+from vultr_python_client.paths.kubernetes_clusters_vke_id_delete_with_linked_resources import delete  # noqa: E501
+from vultr_python_client import configuration, schemas, api_client
 
 from .. import ApiTestMixin
 

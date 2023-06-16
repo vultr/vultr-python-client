@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.baremetal_ipv4 import BaremetalIpv4
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.baremetal_ipv4 import BaremetalIpv4
+from vultr_python_client import configuration
 
 
 class TestBaremetalIpv4(unittest.TestCase):

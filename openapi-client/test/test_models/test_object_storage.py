@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.object_storage import ObjectStorage
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.object_storage import ObjectStorage
+from vultr_python_client import configuration
 
 
 class TestObjectStorage(unittest.TestCase):

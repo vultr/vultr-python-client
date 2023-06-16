@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.backup_schedule import BackupSchedule
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.backup_schedule import BackupSchedule
+from vultr_python_client import configuration
 
 
 class TestBackupSchedule(unittest.TestCase):

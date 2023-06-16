@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.reserved_ip import ReservedIp
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.reserved_ip import ReservedIp
+from vultr_python_client import configuration
 
 
 class TestReservedIp(unittest.TestCase):

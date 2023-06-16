@@ -11,9 +11,9 @@ from unittest.mock import patch
 
 import urllib3
 
-import openapi_client
-from openapi_client.paths.blocks_block_id import get  # noqa: E501
-from openapi_client import configuration, schemas, api_client
+import vultr_python_client
+from vultr_python_client.paths.blocks_block_id import get  # noqa: E501
+from vultr_python_client import configuration, schemas, api_client
 
 from .. import ApiTestMixin
 

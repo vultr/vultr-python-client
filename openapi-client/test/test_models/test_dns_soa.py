@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.dns_soa import DnsSoa
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.dns_soa import DnsSoa
+from vultr_python_client import configuration
 
 
 class TestDnsSoa(unittest.TestCase):

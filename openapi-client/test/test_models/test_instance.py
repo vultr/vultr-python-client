@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.instance import Instance
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.instance import Instance
+from vultr_python_client import configuration
 
 
 class TestInstance(unittest.TestCase):

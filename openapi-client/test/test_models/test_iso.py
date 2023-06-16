@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.iso import Iso
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.iso import Iso
+from vultr_python_client import configuration
 
 
 class TestIso(unittest.TestCase):

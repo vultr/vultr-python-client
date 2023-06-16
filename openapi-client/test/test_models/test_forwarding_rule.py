@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.forwarding_rule import ForwardingRule
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.forwarding_rule import ForwardingRule
+from vultr_python_client import configuration
 
 
 class TestForwardingRule(unittest.TestCase):

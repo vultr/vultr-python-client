@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.firewall_group import FirewallGroup
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.firewall_group import FirewallGroup
+from vultr_python_client import configuration
 
 
 class TestFirewallGroup(unittest.TestCase):

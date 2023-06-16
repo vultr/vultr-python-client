@@ -1,0 +1,7 @@
+# do not import all endpoints into this module because that uses a lot of memory and stack frames
+# if you need the ability to import all endpoints from this module, import them with
+# from openapi_client.paths.bare_metals_baremetal_id_ipv6 import Api
+
+from vultr_python_client.paths import PathValues
+
+path = PathValues.BAREMETALS_BAREMETALID_IPV6

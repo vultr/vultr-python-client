@@ -12,9 +12,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.loadbalancer_firewall_rule import LoadbalancerFirewallRule
-from openapi_client import configuration
+import vultr_python_client
+from vultr_python_client.model.loadbalancer_firewall_rule import LoadbalancerFirewallRule
+from vultr_python_client import configuration
 
 
 class TestLoadbalancerFirewallRule(unittest.TestCase):
